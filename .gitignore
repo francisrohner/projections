@@ -1,0 +1,10 @@
+*.cache
+*.pdb
+CSHL_Library/obj/
+CSHL_Library/bin/
+CSHL_Projection/bin/
+CSHL_Projection/obj/
+CSHL_Server/bin/
+CSHL_Server/obj/
+.vs/
+CSHL_Server/CSHL_Server.csproj.user
