@@ -43,8 +43,11 @@ namespace Projection.Forms
             if (searchInProgress)
             {
                 Image img = pbLogo.Image;
-                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
-                pbLogo.Image = img;
+                if (img != null)
+                {
+                    img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                    pbLogo.Image = img;
+                }
                 string sip = "Search in Progress";
                 int numDots = lblSearchInProgress.Text.Count(c => c == '.');
                 if (numDots < 3)

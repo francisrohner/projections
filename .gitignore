@@ -8,3 +8,9 @@ CSHL_Server/bin/
 CSHL_Server/obj/
 .vs/
 CSHL_Server/CSHL_Server.csproj.user
+Projection/bin/
+Projection/obj/
+Projection_Library/bin/
+Projection_Library/obj/
+Projection_Server/bin/
+Projection_Server/obj/
