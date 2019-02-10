@@ -1,0 +1,4 @@
+language: csharp
+solution: Projection.sln
+script:
+  - msbuild /p:Configuration=Release Projection.sln

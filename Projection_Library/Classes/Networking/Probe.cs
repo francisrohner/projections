@@ -43,7 +43,7 @@ namespace Projection_Library.Classes.Networking
             int.TryParse(ip.Substring(ip.LastIndexOf(".") + 1), out secondToLastFragment);
             ip = ip.Substring(0, ip.LastIndexOf("."));
 
-            if (lastFragment + 1 <= 255)
+            if (lastFragment + 1 <= 254)
                 ++lastFragment;
             else
             {
